@@ -2,9 +2,9 @@ fis.config.set('pack', {
     'pkg/lib.js': [
         '/modules/underscore/**.js',
         '/modules/backbone/**.js',
-        'jquery',
+        '/modules/jquery/**.js',
         '/modules/vendor/**.js',
-        'common'
+        '/modules/common/**.js'
     ]
 });
 

@@ -45,11 +45,11 @@ pure release -p
 
 ## 目录规范
 
-任何 ``目录规范``、``部署规范``、``编译规范`` 都是可配置的（[配置代码](https://github.com/hefangshi/fis-pure/blob/master/fis-conf.js)），这里只介绍内置的规范。
+任何 ``目录规范``、``部署规范``、``编译规范`` 都是可配置的（[配置代码](https://github.com/fex-team/fis-pure/blob/master/pure.js#L28-L67)），这里只介绍内置的规范。
 
 **注意**
 
-如果希望调整目录规范，建议将[配置代码](https://github.com/hefangshi/fis-pure/blob/master/fis-conf.js)中roadmap.path的部分整体复制到项目的fis-conf.js中再进行调整，避免配置不符合预期的问题。
+如果希望调整目录规范，建议将[配置代码](https://github.com/fex-team/fis-pure/blob/master/pure.js#L28-L67)中roadmap.path的部分整体复制到项目的fis-conf.js中再进行调整，避免配置不符合预期的问题。
 
 内置的规范包括：
 
