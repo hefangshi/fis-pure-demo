@@ -9,21 +9,7 @@ var _ = require('underscore');
 TodoView = Backbone.View.extend({
 	tagName:  'li',
 
-	template: function(obj){
-var __t,__p='',__j=Array.prototype.join,print=function(){__p+=__j.call(arguments,'');};
-with(obj||{}){
-__p+='<div class="view">\n    <input class="toggle" type="checkbox" '+
-((__t=( completed ? 'checked' : '' ))==null?'':__t)+
-'>\n    <label class="icon_'+
-((__t=( Math.ceil(Math.random() * 5)))==null?'':_.escape(__t))+
-'">'+
-((__t=( title ))==null?'':_.escape(__t))+
-'</label>\n    <button class="destroy"></button>\n</div>\n<input class="edit" value="'+
-((__t=( title ))==null?'':_.escape(__t))+
-'">';
-}
-return __p;
-},
+	template: __inline('./template/item.tmpl'),
 
 	events: {
 		'click .toggle': 'toggleCompleted',

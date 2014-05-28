@@ -12,23 +12,7 @@ AppView = Backbone.View.extend({
 
 	el: '#todoapp',
 
-	statsTemplate: function(obj){
-var __t,__p='',__j=Array.prototype.join,print=function(){__p+=__j.call(arguments,'');};
-with(obj||{}){
-__p+='<span id="todo-count"><strong>'+
-((__t=( remaining ))==null?'':__t)+
-'</strong> '+
-((__t=( remaining === 1 ? 'item' : 'items' ))==null?'':__t)+
-' left</span>\n<ul id="filters">\n    <li>\n        <a class="selected" href="#/">All</a>\n    </li>\n    <li>\n        <a href="#/active">Active</a>\n    </li>\n    <li>\n        <a href="#/completed">Completed</a>\n    </li>\n</ul>\n';
- if (completed) { 
-__p+='\n<button id="clear-completed">Clear completed ('+
-((__t=( completed ))==null?'':__t)+
-')</button>\n';
- } 
-__p+='';
-}
-return __p;
-},
+	statsTemplate: __inline('./template/stats.tmpl'),
 
 	events: {
 		'keypress #new-todo': 'createOnEnter',
