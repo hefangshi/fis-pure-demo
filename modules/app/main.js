@@ -12,4 +12,6 @@ new Workspace();
 
 Backbone.history.start();
 
-new app();
+Backbone.$(document).ready(function(){
+    new app();
+});
