@@ -1,0 +1,1 @@
+define("app/main",function(e){var n,a,r;n=e("backbone"),n.$=e("jquery"),r=e("app/views/app"),a=e("app/routers/router"),new a,n.history.start(),n.$(document).ready(function(){new r})});
