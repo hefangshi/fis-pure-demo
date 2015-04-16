@@ -9,6 +9,14 @@ npm install -g fis-pure
 
 安装成功后执行 ``pure -h`` 即可看到相关开发命令帮助
 
+## 下载DEMO代码
+
+```bash
+git clone https://github.com/hefangshi/fis-pure-demo
+```
+
+也可以直接使用右侧的 `Download Zip`
+
 ## 让代码跑起来！
 
 首先，启动内置的调试服务器：
