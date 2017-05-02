@@ -1,6 +1,8 @@
 fis-pure-demo
 =====================================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/hefangshi/fis-pure-demo.svg)](https://greenkeeper.io/)
+
 ## 安装fis-pure
 
 ```bash
